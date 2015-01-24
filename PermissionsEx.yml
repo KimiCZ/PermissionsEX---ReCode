@@ -1,0 +1,126 @@
+groups:
+  Hrac:
+    permissions:
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.delhome
+    - essentials.help
+    - essentials.helpop
+    - essentials.home
+    - essentials.ignore
+    - essentials.info
+    - essentials.kit
+    - essentials.kits.tools
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.motd
+    - essentials.msg
+    - essentials.pay
+    - essentials.ping
+    - essentials.protect
+    - essentials.rules
+    - essentials.realname
+    - essentials.see
+    - essentials.sethome
+    - essentials.spawn
+    - essentials.suicide
+    - essentials.time
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.build.*
+    - essentials.warps.list
+    - essentials.warps.*
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.signs.use.buy
+    - essentials.signs.use.sell
+    - essentials.signs.use
+    - modifyworld.*
+    - bl.login
+    - bl.unregister
+    - bl.register
+    - multiverse.access.*
+    - treeassist.destroy.*
+    - treeassist.replant
+    - treeassist.toggle
+    - treeassist.destroy.*
+    - treeassist.replant
+    - treeassist.toggle
+    - iConomy.acess
+    - iConomy.list
+    - iConomy.payment
+    - iConomy.rank
+    options:
+      prefix: '&6[Hrac]&8'
+      default: true
+  Gamesupport:
+    permissions:
+    - worldguard.*
+    - essentials.invsee
+    - essentials.tphere
+    - essentials.tp
+    - essentials.broadcast
+    - essentials.give
+    - essentials.feed
+    - essentials.feed.other
+    - essentials.time.set
+    - essentials.time
+    - essentials.weather
+    - essentials.setwarp
+    - worldedit.*
+    - worldguard.region.bypass.*
+    - essentials.gamemode
+    - essentials.kick
+    - essentials.tphere
+    - essentials.tpall
+    - essentials.ban
+    - essentials.tempban
+    - getstaff.read
+    inheritance:
+    - Hrac
+    options:
+      prefix: '&9[Game Support]&a '
+      default: false
+  Admin:
+    permissions:
+    - '*'
+    - creativegates.*
+    - essentials.signs.create
+    - essentials.signs.create.*
+    options:
+      prefix: '&3[Admin]&1 '
+      default: false
+  Majitel:
+    permissions:
+    - '*'
+    - creativegates.*
+    - essentials.signs.create
+    - essentials.signs.create.*
+    options:
+      prefix: '&e[Majitel]&b '
+      default: false
+users:
+  b7d810bd-215b-3454-9bc8-e8bf2fa40f3c:
+    group:
+    - Owner
+    options:
+      name: KimiCZ
+schema-version: 1
+
+....................................................
+User Options :
+CHAT_STYLE_PREFIX : "&{Color}[{GroupName}] &{Color}"
+CHAT_STYLE_SUFFIX : "Disabled"
+CHAT_STYLE_OPS : "&{Color}"
+PERMISSIONS_READ_FROM : "/plugins/PermissionsEx/permissions.yml!
+COLOR_CODES : "&0 ; &1 ; &2 ; &3 ; &4 ; &5 ; &6 ; &7 ; &8 ; &9 ; &a ; &b ; &d ; &e ; &f"
+COLORS_DEFINITIONS : "black ; dark_blue ; dark_green ; dark_aqua ; dark_red ; dark_purple ; gold ; gray ; dark_gray ; blue ; green ; aqua ; red ; light_purple ; yellow ; white"
+GROUPS_LIST : "Hrac ; GameSupport ; Admin ; Majitel ; VIP ; ExtraVIP ; Builder ; Helper ; WebSupport ; WebOchrana ; Donator"
+...................................................
+
+IN DEVELOPMENT... COMING SOON
